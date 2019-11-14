@@ -8,7 +8,7 @@
 // @updateURL https://cdn.jsdelivr.net/gh/Kore-Development/qe@master/live/qe.user.js
 // @downloadURL https://cdn.jsdelivr.net/gh/Kore-Development/qe@master/live/qe.user.js
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      SnowLord7
 // @description DISABLE WHEN NOT NEEDED!
 // ==/UserScript==
@@ -234,13 +234,13 @@
     `;
 
     const click = (e) => {
-        if (e.fireEvent) {
+        setTimeout(function(){if (e.fireEvent) {
             e.fireEvent('onclick');
         } else {
             var obj = document.createEvent('Events');
             obj.initEvent('click', true, false);
             e.dispatchEvent(obj);
-        }
+        }},Math.floor(Math.random() * (3000 - 1000 + 1) + 1000));
     }
 
     const makeDraggable = function (dragItem, container) {
