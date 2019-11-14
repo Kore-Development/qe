@@ -2,11 +2,13 @@
 // @name        Quizlet Live Exploit
 // @icon https://img.pqtato.pw/uploads/big/89e880a931a9b5af8158f4f733d8b79a.png
 // @namespace   Violentmonkey Scripts
-// @match       *://quizlet.com/*
+// @match       *://quizlet.com/live/*
+// @match       *://quizlet.com/live
+// @match       *://quizlet.com/*/live
 // @updateURL https://cdn.jsdelivr.net/gh/Kore-Development/qe@master/live/qe.user.js
 // @downloadURL https://cdn.jsdelivr.net/gh/Kore-Development/qe@master/live/qe.user.js
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      SnowLord7
 // @description DISABLE WHEN NOT NEEDED!
 // ==/UserScript==
