@@ -9,6 +9,8 @@
 // @match       *://quizlet.com/*/test
 // @match       *://quizlet.com/*/match
 // @match       *://quizlet.com/*/gravity
+// @updateURL https://raw.githubusercontent.com/Kore-Development/qe/master/qe.js
+// @downloadURL https://raw.githubusercontent.com/Kore-Development/qe/master/qe.js
 // @grant       none
 // @version     1.0
 // @author      SnowLord7
