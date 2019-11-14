@@ -252,7 +252,7 @@ function getExtensionSettings() {
                     spell();
                 });
             } else if (href.includes("/test")) {
-                cAlert('<h2>Game Mode: Test</h2>Thank you for using SnowLord7s Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><br><h4>Instructions:</h4>Press "c" (Or the key specified in settings) to toggle the answers.<br>(Be subtle when using)<br><br><button class="UIButton" id="testButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
+                cAlert('<h2>Game Mode: Test</h2>Thank you for using SnowLord7s Quizlet Exploit<br>Without you, this exploit wouldnt be possible.<br><br><h4>Instructions:</h4>Press "`" (Or the key specified in settings) to toggle the answers.<br>(Be subtle when using)<br><br><button class="UIButton" id="testButton" type="button"><span class="UIButton-wrapper"><span>Inject</span></span></button>');
                 getId("testButton").addEventListener("click", function () {
                     document.getElementById("customMessageContainer").remove();
                     testMode();
