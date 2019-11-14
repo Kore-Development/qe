@@ -14,7 +14,7 @@
 // @grant       none
 // @version     1.1
 // @author      SnowLord7
-// @description 11/14/2019, 10:51:52 AM
+// @description Exploit for Quizlet
 // ==/UserScript==
 
 var defaultExtensionSettings = {
