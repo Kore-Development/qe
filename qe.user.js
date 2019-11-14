@@ -12,7 +12,7 @@
 // @updateURL https://raw.githubusercontent.com/Kore-Development/qe/master/qe.user.js
 // @downloadURL https://raw.githubusercontent.com/Kore-Development/qe/master/qe.user.js
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      SnowLord7
 // @description 11/14/2019, 10:51:52 AM
 // ==/UserScript==
